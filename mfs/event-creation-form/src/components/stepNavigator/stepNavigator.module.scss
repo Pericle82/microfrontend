@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .steps_row {
+      div {
+        text-align: center;
+        &:first-child {
+       
+          div {
+            text-align: left;
+            margin-left: 0;
+          }
+        }   
+        &:last-child {
+            div {
+              text-align: right;
+              margin-right: 0;
+            }
+        }
+      }
+    }
+        
+        color: var(--text-color);
+        font-size: 1.5rem;
+        .step_info {
+            opacity: 0.5;
+            p {
+               margin-bottom: 0;
+                &:last-child {
+                    font-size: 0.7rem
+            }
+            }
+            &.active {
+                font-weight: bold;
+                opacity: 1;
+                &.completed {
+                    color: green;
+                }
+            }
+            &.completed {
+                color: green;
+            }
+            
+        }
+      
+     
+    }
+

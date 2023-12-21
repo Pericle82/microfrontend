@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "module": "nodenext",
+      "esModuleInterop": true,
+      "target": "esnext",
+      "sourceMap": true,
+      "outDir": "dist",
+      "strict": true
+    }
+  }
